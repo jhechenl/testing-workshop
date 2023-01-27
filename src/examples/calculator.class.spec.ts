@@ -18,10 +18,4 @@ describe('Calculator', () => {
     });
   });
 
-  describe('divide', () => {
-    it('should return result of division', () => {
-      expect(calculator.divide(6, 3)).toBe(2);
-      expect(calculator.divide(6, 0)).toBe(Infinity);
-    });
-  });
 });

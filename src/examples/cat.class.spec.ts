@@ -1,6 +1,6 @@
 import { Cat } from './cat.class';
 
-describe('Calculator', () => {
+describe('Cat', () => {
   let cats: Cat;
 
   beforeEach(async () => {
